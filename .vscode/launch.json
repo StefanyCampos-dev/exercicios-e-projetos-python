@@ -5,7 +5,7 @@
             "name": "Rodar Calculadora",
             "type": "debugpy",
             "request": "launch",
-            "module": "calc.Simples.projectCalc",
+            "module": "calcSimples.projectCalc",
             "justMyCode": true,
             "console": "integratedTerminal",
             "cwd": "${workspaceFolder}"

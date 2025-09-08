@@ -29,3 +29,4 @@ while True:
         continue
 
     print('Resultado:', res)
+    
