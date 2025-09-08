@@ -18,6 +18,9 @@ Nesse projeto, o usuário digita várias notas e o programa retorna um dicionár
 > Pasta: `verificador_voto`
 Aqui, você informa o ano de nascimento e o script te diz se o voto é obrigatório, opcional ou não permitido — baseado na sua idade. Bem legal pra treinar funções e condições!
 ---
+### 4. 🧮 Calculadora Simples
+Pasta: `calcSimples`
+Estamos iniciando esse projeto com o objetivo de exercitar modularização e organização em pacotes, utilizando bibliotecas simples do Python. Ele foca em operações básicas de cálculo e na interação com o usuário, servindo como treino para estruturar código de forma limpa, reutilizável e escalável.
 ## ✨ Sobre os projetos
 
 Esses projetos são parte da minha jornada de estudos em Python. Estou sempre testando, errando, aprendendo e evoluindo 💪
