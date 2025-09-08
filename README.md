@@ -21,6 +21,8 @@ Aqui, você informa o ano de nascimento e o script te diz se o voto é obrigató
 ### 4. 🧮 Calculadora Simples
 Pasta: `calcSimples`
 Estamos iniciando esse projeto com o objetivo de exercitar modularização e organização em pacotes, utilizando bibliotecas simples do Python. Ele foca em operações básicas de cálculo e na interação com o usuário, servindo como treino para estruturar código de forma limpa, reutilizável e escalável.
+** Na pasta .vscode vc encontra um launch.json é um arquivo do VS Code que configura como o projeto Python deve ser executado ou depurado. Ele indica qual módulo ou arquivo rodar, qual terminal usar e de onde o Python deve buscar os módulos do projeto
+
 ## ✨ Sobre os projetos
 
 Esses projetos são parte da minha jornada de estudos em Python. Estou sempre testando, errando, aprendendo e evoluindo 💪
