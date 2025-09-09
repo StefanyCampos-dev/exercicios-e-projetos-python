@@ -1,32 +1,27 @@
-from calcSimples import menu
+import menu
+import calculos
 
-print('Minha primeira calculadora em Python')
+def main():
+    while True:
+        try:  # tratamento de erro
+            n1 = float(input('Informe o primeiro valor do cálculo:  '))
+            n2 = float(input('Informe o segundo valor do cálculo:  '))
+        except ValueError:  # tratamento de erro
+            print('Erro! Digite apenas números.')
+            return  # encerra o programa se entrada inválida
 
-while True:
-    n1 = int(input('Digite o primeiro número: '))
-    n2 = int(input('Digite o segundo número: '))
-    
-    op = menu()
-    print("Você escolheu a função", op)
+        while True:
+            op = menu.menu()  # chama a função menu() que está dentro do módulo menu
 
-    if op == 1:
-        res = n1 + n2
-    elif op == 2:
-        res = n1 - n2
-    elif op == 3:
-        res = n1 * n2
-    elif op == 4:
-        if n2 != 0:
-            res = n1 / n2
-        else:
-            print('Erro! divisão por zero')
-            continue
-    elif op == 5:
-        print('Saindo...')
-        break
-    else:
-        print('Erro! operação inválida')
-        continue
+            if op == 5:  # opção de sair
+                print('Saindo...')
+                break  # sai do loop do menu e permite reinserir novos números
 
-    print('Resultado:', res)
-    
+            resultado = calculos.calculos(n1, n2, op)
+
+            # mostra o resultado se não for None
+            if resultado is not None:
+                print(f'\nO resultado é: {resultado}\n')
+
+if __name__ == "__main__":
+    main()
